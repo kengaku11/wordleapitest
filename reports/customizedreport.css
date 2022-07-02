@@ -1,0 +1,11 @@
+:root {
+    --ambiguous-color:#AAAAAA;
+    --failed-color:#f30303;
+    --not-defined-color:#CCCCCC;
+    --passed-color:#1ff008;
+    --pending-color:#f5dd07;
+    --skipped-color:#FFFFFF;
+  }
+  .ambiguous-color {
+    color: var(--ambiguous-color) !important;
+}

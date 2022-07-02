@@ -1,0 +1,28 @@
+{
+  "name": "ASSIGNMENT TEST VOTEE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tags": "./node_modules/.bin/cucumber-js --require cucumber.js --tags @test  --require src/step-definitions/ -f json:reports/cucumber_report.json --publish-quiet",
+    "report": "node reporter_multiple.js",
+    "test":"npm run tags || npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@playwright/test": "^1.22.2",
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "jsonpath": "^1.1.1",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "playwright": "^1.19.0",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
