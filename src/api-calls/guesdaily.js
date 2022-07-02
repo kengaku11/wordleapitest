@@ -1,4 +1,3 @@
-const { response } = require("express");
 const apiUrls = require("../config/apiUrls");
 const { GET } = require("../utils/apis/customCall");
 
