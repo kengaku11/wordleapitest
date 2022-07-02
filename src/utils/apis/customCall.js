@@ -7,7 +7,6 @@ const { basicHeader } = require ('./header');
 
 
 const env = process.env.ENV || domains.defaultEvironment
-const country=process.env.COUNTRY || domains.defaultCountry
 let lastCall = {
     method: undefined,
     url: undefined,

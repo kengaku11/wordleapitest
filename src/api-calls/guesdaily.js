@@ -55,7 +55,7 @@ class GuessDaily{
             }  
         }
 
-        console.log("Final Expected Word is :  " + expected.join())    
+        console.log("Final Expected Word is :  " + expected.join(''))    
     }
     
      async permute(arr) {
