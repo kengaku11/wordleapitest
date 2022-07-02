@@ -1,7 +1,7 @@
 General information:
 
 Based requirement ``The idea is to connect to an API that plays a Wordle-like puzzle.``
-So i will summary quick my idea for this one:
+So i will summary quickly for my idea :
  ``Scenario: Verify to find correct Word``
        ``Given all Chacracters from keyboard``
         ``When enter all text from keyboard to guess present text``
